@@ -12,7 +12,7 @@ h1{
     font-family: sans-serif;
     text-align: center;
 }
-.item{
+.arrow{
     color: rgb(236, 69, 69);
      margin-top: 40px;
      margin-left: 560px;
@@ -24,7 +24,7 @@ h1{
     position:absolute;
 }
 .box{
-    border: 2px solid rgb(216, 141, 141);;
+    border: 2px solid rgb(216, 141, 141);
     margin: 30px;
     border-radius: 10px;
     width: 230px;
@@ -43,7 +43,7 @@ input{
 }
 .plus{
     color: rgb(236, 69, 69);
-     float: right;
+    float: right;
     margin-top: 130px;
     padding: 5px;
 }
@@ -66,18 +66,13 @@ h4{
 @media(max-width:500px){
     h1{
         font-size: 30px;
-        font-family: sans-serif;
-        text-align: center;
     }
     .container{
         display: flex;
       
     }
-    .item{
-        color: rgb(236, 69, 69);
-         margin-top: 40px;
+    .arrow{
          margin-left: 50px;
-         
     }
     .icon{
     
@@ -86,22 +81,14 @@ h4{
         
     }
     .box{
-        border: 2px solid rgb(216, 141, 141);;
         margin-left: 10px;
-        border-radius: 10px;
         width: 200px;
         height: 290px;
-        padding: 5px;
-        box-shadow: 10px 7px rgba(231, 230, 230, 0.692); 
         font-size: 18px;  
-         
-        
-    }
+   }
     .plus{
-        color: rgb(236, 69, 69);
-         float: right;
         margin-top: 100px;
-        padding: 5px;
+       
     }
 
 }
